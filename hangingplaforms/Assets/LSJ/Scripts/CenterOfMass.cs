@@ -8,11 +8,13 @@ public class CenterOfMass : MonoBehaviour
     public Vector3 CenterOfMass2;
     public bool Awake;
     protected Rigidbody rb;
+    GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();    
+        rb = GetComponent<Rigidbody>();
+        // player = GetComponent<Player>();
     }
 
     // Update is called once per frame
