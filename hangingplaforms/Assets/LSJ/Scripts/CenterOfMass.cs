@@ -9,6 +9,9 @@ public class CenterOfMass : MonoBehaviour
     public bool Awake;
     protected Rigidbody rb;
     GameObject player;
+    private float speed = 10;
+
+    public Transform target;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,12 @@ public class CenterOfMass : MonoBehaviour
         rb.centerOfMass = CenterOfMass2;
         rb.WakeUp();
         Awake = !rb.IsSleeping();
+
+        Vector3 dir = new Vector3(1, 0, 1);
+        dir = target.position - transform.position;
+        dir.Normalize();
+
+        transform.position += dir * speed * Time.deltaTime;
     }
 
     private void OnDrawGizmos()
