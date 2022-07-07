@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Floor
+  - envorionment
   layers:
   - Default
   - TransparentFX
@@ -12,10 +14,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Environment
+  - Obstacle
+  - Wall
+  - Ball
   - 
   - 
   - 
