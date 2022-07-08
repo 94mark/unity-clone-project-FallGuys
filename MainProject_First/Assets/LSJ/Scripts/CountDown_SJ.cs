@@ -22,7 +22,7 @@ public class CountDown_SJ : MonoBehaviour
     {
         endOfCountDown = new CountDownEvent();
         textCountDown = GetComponent<TextMeshProUGUI>();
-        audioSource = GetComponent<AudioSource>();
+        // audioSource = GetComponent<AudioSource>();
     }
 
     public void StartCountDown(UnityAction action, int start = 3, int end = 1)
@@ -36,7 +36,7 @@ public class CountDown_SJ : MonoBehaviour
 
         while (start > end - 1)
         {
-            audioSource.Play();
+            // audioSource.Play();
             textCountDown.text = start.ToString();
             yield return StartCoroutine("OnFontAnimation");
             start--;
