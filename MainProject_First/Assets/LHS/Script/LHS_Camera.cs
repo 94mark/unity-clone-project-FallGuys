@@ -31,7 +31,7 @@ public class LHS_Camera : MonoBehaviour
         // 돌아갈 수 있는 각도 제한
         y = Mathf.Clamp(y, -5, 32);
         // 카메라와 플레이어의 거리조정
-        Vector3 reDistance = new Vector3(0.0f, -2, distance);
+        Vector3 reDistance = new Vector3(0.0f, -2f, distance);
         transform.position = player.transform.position - transform.rotation * reDistance;
     }
 }

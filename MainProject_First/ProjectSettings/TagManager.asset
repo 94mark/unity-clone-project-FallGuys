@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Floor
   - envorionment
+  - bounce
+  - Wall
+  - Platform
   layers:
   - Default
   - TransparentFX

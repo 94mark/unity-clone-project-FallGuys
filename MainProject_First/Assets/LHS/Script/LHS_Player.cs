@@ -19,6 +19,8 @@ public class LHS_Player : MonoBehaviour
 
     Vector3 moveVec;
 
+    
+
     private Camera currentCamera;
     public bool UseCameraRotation = true;
 
