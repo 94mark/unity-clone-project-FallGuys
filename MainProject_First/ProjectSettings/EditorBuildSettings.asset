@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LSJ/Scene/Intro.unity
+    guid: 6e83a6d8f5ceef44483a2906c89c611d
+  - enabled: 1
+    path: Assets/LSJ/Scene/InGame.unity
+    guid: f27606d0e98c84b4f8a3b9a3bdde8290
   m_configObjects: {}

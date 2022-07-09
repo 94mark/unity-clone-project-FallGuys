@@ -147,7 +147,7 @@ private void FixedUpdate()
     private void OnCollisionEnter(Collision collision)
     {
         // 태그가 바닥이라면 
-        if(collision.gameObject.tag == "environment")
+        if(collision.gameObject.layer == 6)
         {
             isJump = false;  
         }
