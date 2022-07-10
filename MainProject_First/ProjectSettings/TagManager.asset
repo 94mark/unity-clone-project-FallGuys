@@ -10,6 +10,7 @@ TagManager:
   - bounce
   - Wall
   - Platform
+  - destination
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Wall
   - Ball
   - Player
-  - 
+  - destination
   - 
   - 
   - 

@@ -8,7 +8,7 @@ PhysicMaterial:
   m_PrefabAsset: {fileID: 0}
   m_Name: Slipery
   dynamicFriction: 0.05
-  staticFriction: 0.05
+  staticFriction: 10
   bounciness: 0
   frictionCombine: 1
   bounceCombine: 0
