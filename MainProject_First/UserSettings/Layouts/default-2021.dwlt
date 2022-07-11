@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -40,9 +40,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 408.8
+    y: 296.8
     width: 386.39996
-    height: 314
+    height: 426
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 17}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 71
+  controlID: 18
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 126
+  controlID: 47
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 100
+  controlID: 78
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 386.39996
-    height: 408.8
+    height: 296.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 724.8
     height: 470.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -418,7 +418,7 @@ MonoBehaviour:
     x: 724.8
     y: 73.6
     width: 384.39996
-    height: 387.8
+    height: 275.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -426,9 +426,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2330600
-      m_LastClickedID: 406434
-      m_ExpandedIDs: a0d8fbffc01cfcff681dfcffae24fcffca8dfcfffc8dfcff1a8efcff74a1fcff64aefcff14b4fcff4c74fdff228ffdff2896fdff643cffff963cffffb03cffff7e46ffff4448ffff464cffff424fffff1a51ffff5454ffff3e7affff7088ffffc0faffffeefaffff18fbffff925e0000081301001e140100c47b0100f28a010018960200d2980200b21e0500c4340600
+      m_SelectedIDs: a8650000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 9238ffffea40fffff658ffffce5affff645effffda64ffffc4c7ffff96c9ffff84d0ffff64eeffff2af7ffff18fbffffaa7700003c7900003ecb000008ce000028ce0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -514,9 +514,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 724.8
-    y: 482.4
+    y: 370.4
     width: 384.39996
-    height: 293
+    height: 405
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -534,22 +534,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/LSJ/Plugins/ObstacleCoursePack/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/LSJ/Plugins/ObstacleCoursePack/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\HP\Documents\GitHub\hanging-plaform-game\MainProject_First
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 207}
-    m_SelectedIDs: 64860000
-    m_LastClickedID: 34404
-    m_ExpandedIDs: 0000000056640000586400005a6400005c6400005e64000060640000686400006a6400006886000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 60650000
+    m_LastClickedID: 25952
+    m_ExpandedIDs: 00000000586500005a6500005c6500005e65000060650000626500007a65000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,7 +577,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056640000586400005a6400005c6400005e64000060640000
+    m_ExpandedIDs: 00000000586500005a6500005c6500005e6500006065000062650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -604,22 +604,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: InGame
+      m_OriginalName: InGame
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26024
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -758,8 +758,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.600006}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -780,7 +780,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -950,9 +950,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.6475005, y: 20.453594, z: 23.667194}
+    m_Target: {x: 472.17374, y: 123.35861, z: -41.108387}
     speed: 2
-    m_Value: {x: -5.6475005, y: 20.453594, z: 23.667194}
+    m_Value: {x: 472.17374, y: 123.35861, z: -41.108387}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -999,13 +999,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07793648, y: -0.9240378, z: 0.29178217, w: -0.2368147}
+    m_Target: {x: -0.10716228, y: 0.8743902, z: -0.23493858, w: -0.4122289}
     speed: 2
-    m_Value: {x: -0.0783295, y: -0.9231564, z: 0.2914991, w: -0.23806506}
+    m_Value: {x: -0.10709961, y: 0.8738788, z: -0.23480117, w: -0.4119878}
   m_Size:
-    m_Target: 1.3359586
+    m_Target: 70.71068
     speed: 2
-    m_Value: 1.3359586
+    m_Value: 70.71068
   m_Ortho:
     m_Target: 0
     speed: 2
