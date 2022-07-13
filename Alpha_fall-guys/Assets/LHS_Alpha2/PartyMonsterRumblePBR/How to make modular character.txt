@@ -1,0 +1,6 @@
+To Make a modular character,
+
+First you have to locate Head bone.
+Many non-skinned mesh parts are parented under that bone.
+
+All other parts are open in the visible hierarcy outside of bones.

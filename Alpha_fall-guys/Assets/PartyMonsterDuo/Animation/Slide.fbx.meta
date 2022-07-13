@@ -1,132 +1,374 @@
 fileFormatVersion: 2
 guid: ce85b6fae17ba5640abc7c259651e1be
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: ball_l
-    100002: ball_r
-    100004: Bodies
-    100006: calf_l
-    100008: calf_r
-    100010: clavicle_l
-    100012: clavicle_r
-    100014: drill_l
-    100016: drill_r
-    100018: face
-    100020: foot_l
-    100022: foot_r
-    100024: FrontBelly
-    100026: hand_l
-    100028: hand_r
-    100030: hat_01
-    100032: hat_02
-    100034: head
-    100036: hornA_01_l
-    100038: hornA_01_r
-    100040: hornA_02_l
-    100042: hornA_02_r
-    100044: hornB_01_l
-    100046: hornB_01_r
-    100048: hornB_02_l
-    100050: hornB_02_r
-    100052: hornB_03_l
-    100054: hornB_03_r
-    100056: hornC_01_l
-    100058: hornC_01_r
-    100060: hornC_02_l
-    100062: hornC_02_r
-    100064: Jaw
-    100066: lowerarm_l
-    100068: lowerarm_r
-    100070: LowerJaw_l
-    100072: LowerJaw_r
-    100074: MainBody01
-    100076: mouth
-    100078: neck_01
-    100080: pelvis
-    100082: root
-    100084: saw_l
-    100086: saw_r
-    100088: //RootNode
-    100090: spine_01
-    100092: spine_02
-    100094: spine_03
-    100096: tail_01
-    100098: tail_02
-    100100: tail_03
-    100102: tail_04
-    100104: thigh_l
-    100106: thigh_r
-    100108: upperarm_l
-    100110: upperarm_r
-    100112: upperJaw_l
-    100114: upperJaw_r
-    400000: ball_l
-    400002: ball_r
-    400004: Bodies
-    400006: calf_l
-    400008: calf_r
-    400010: clavicle_l
-    400012: clavicle_r
-    400014: drill_l
-    400016: drill_r
-    400018: face
-    400020: foot_l
-    400022: foot_r
-    400024: FrontBelly
-    400026: hand_l
-    400028: hand_r
-    400030: hat_01
-    400032: hat_02
-    400034: head
-    400036: hornA_01_l
-    400038: hornA_01_r
-    400040: hornA_02_l
-    400042: hornA_02_r
-    400044: hornB_01_l
-    400046: hornB_01_r
-    400048: hornB_02_l
-    400050: hornB_02_r
-    400052: hornB_03_l
-    400054: hornB_03_r
-    400056: hornC_01_l
-    400058: hornC_01_r
-    400060: hornC_02_l
-    400062: hornC_02_r
-    400064: Jaw
-    400066: lowerarm_l
-    400068: lowerarm_r
-    400070: LowerJaw_l
-    400072: LowerJaw_r
-    400074: MainBody01
-    400076: mouth
-    400078: neck_01
-    400080: pelvis
-    400082: root
-    400084: saw_l
-    400086: saw_r
-    400088: //RootNode
-    400090: spine_01
-    400092: spine_02
-    400094: spine_03
-    400096: tail_01
-    400098: tail_02
-    400100: tail_03
-    400102: tail_04
-    400104: thigh_l
-    400106: thigh_r
-    400108: upperarm_l
-    400110: upperarm_r
-    400112: upperJaw_l
-    400114: upperJaw_r
-    2100000: lambert1
-    4300000: MainBody01
-    7400000: Slide
-    9500000: //RootNode
-    13700000: MainBody01
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: ball_l
+  - first:
+      1: 100002
+    second: ball_r
+  - first:
+      1: 100004
+    second: Bodies
+  - first:
+      1: 100006
+    second: calf_l
+  - first:
+      1: 100008
+    second: calf_r
+  - first:
+      1: 100010
+    second: clavicle_l
+  - first:
+      1: 100012
+    second: clavicle_r
+  - first:
+      1: 100014
+    second: drill_l
+  - first:
+      1: 100016
+    second: drill_r
+  - first:
+      1: 100018
+    second: face
+  - first:
+      1: 100020
+    second: foot_l
+  - first:
+      1: 100022
+    second: foot_r
+  - first:
+      1: 100024
+    second: FrontBelly
+  - first:
+      1: 100026
+    second: hand_l
+  - first:
+      1: 100028
+    second: hand_r
+  - first:
+      1: 100030
+    second: hat_01
+  - first:
+      1: 100032
+    second: hat_02
+  - first:
+      1: 100034
+    second: head
+  - first:
+      1: 100036
+    second: hornA_01_l
+  - first:
+      1: 100038
+    second: hornA_01_r
+  - first:
+      1: 100040
+    second: hornA_02_l
+  - first:
+      1: 100042
+    second: hornA_02_r
+  - first:
+      1: 100044
+    second: hornB_01_l
+  - first:
+      1: 100046
+    second: hornB_01_r
+  - first:
+      1: 100048
+    second: hornB_02_l
+  - first:
+      1: 100050
+    second: hornB_02_r
+  - first:
+      1: 100052
+    second: hornB_03_l
+  - first:
+      1: 100054
+    second: hornB_03_r
+  - first:
+      1: 100056
+    second: hornC_01_l
+  - first:
+      1: 100058
+    second: hornC_01_r
+  - first:
+      1: 100060
+    second: hornC_02_l
+  - first:
+      1: 100062
+    second: hornC_02_r
+  - first:
+      1: 100064
+    second: Jaw
+  - first:
+      1: 100066
+    second: lowerarm_l
+  - first:
+      1: 100068
+    second: lowerarm_r
+  - first:
+      1: 100070
+    second: LowerJaw_l
+  - first:
+      1: 100072
+    second: LowerJaw_r
+  - first:
+      1: 100074
+    second: MainBody01
+  - first:
+      1: 100076
+    second: mouth
+  - first:
+      1: 100078
+    second: neck_01
+  - first:
+      1: 100080
+    second: pelvis
+  - first:
+      1: 100082
+    second: root
+  - first:
+      1: 100084
+    second: saw_l
+  - first:
+      1: 100086
+    second: saw_r
+  - first:
+      1: 100088
+    second: //RootNode
+  - first:
+      1: 100090
+    second: spine_01
+  - first:
+      1: 100092
+    second: spine_02
+  - first:
+      1: 100094
+    second: spine_03
+  - first:
+      1: 100096
+    second: tail_01
+  - first:
+      1: 100098
+    second: tail_02
+  - first:
+      1: 100100
+    second: tail_03
+  - first:
+      1: 100102
+    second: tail_04
+  - first:
+      1: 100104
+    second: thigh_l
+  - first:
+      1: 100106
+    second: thigh_r
+  - first:
+      1: 100108
+    second: upperarm_l
+  - first:
+      1: 100110
+    second: upperarm_r
+  - first:
+      1: 100112
+    second: upperJaw_l
+  - first:
+      1: 100114
+    second: upperJaw_r
+  - first:
+      4: 400000
+    second: ball_l
+  - first:
+      4: 400002
+    second: ball_r
+  - first:
+      4: 400004
+    second: Bodies
+  - first:
+      4: 400006
+    second: calf_l
+  - first:
+      4: 400008
+    second: calf_r
+  - first:
+      4: 400010
+    second: clavicle_l
+  - first:
+      4: 400012
+    second: clavicle_r
+  - first:
+      4: 400014
+    second: drill_l
+  - first:
+      4: 400016
+    second: drill_r
+  - first:
+      4: 400018
+    second: face
+  - first:
+      4: 400020
+    second: foot_l
+  - first:
+      4: 400022
+    second: foot_r
+  - first:
+      4: 400024
+    second: FrontBelly
+  - first:
+      4: 400026
+    second: hand_l
+  - first:
+      4: 400028
+    second: hand_r
+  - first:
+      4: 400030
+    second: hat_01
+  - first:
+      4: 400032
+    second: hat_02
+  - first:
+      4: 400034
+    second: head
+  - first:
+      4: 400036
+    second: hornA_01_l
+  - first:
+      4: 400038
+    second: hornA_01_r
+  - first:
+      4: 400040
+    second: hornA_02_l
+  - first:
+      4: 400042
+    second: hornA_02_r
+  - first:
+      4: 400044
+    second: hornB_01_l
+  - first:
+      4: 400046
+    second: hornB_01_r
+  - first:
+      4: 400048
+    second: hornB_02_l
+  - first:
+      4: 400050
+    second: hornB_02_r
+  - first:
+      4: 400052
+    second: hornB_03_l
+  - first:
+      4: 400054
+    second: hornB_03_r
+  - first:
+      4: 400056
+    second: hornC_01_l
+  - first:
+      4: 400058
+    second: hornC_01_r
+  - first:
+      4: 400060
+    second: hornC_02_l
+  - first:
+      4: 400062
+    second: hornC_02_r
+  - first:
+      4: 400064
+    second: Jaw
+  - first:
+      4: 400066
+    second: lowerarm_l
+  - first:
+      4: 400068
+    second: lowerarm_r
+  - first:
+      4: 400070
+    second: LowerJaw_l
+  - first:
+      4: 400072
+    second: LowerJaw_r
+  - first:
+      4: 400074
+    second: MainBody01
+  - first:
+      4: 400076
+    second: mouth
+  - first:
+      4: 400078
+    second: neck_01
+  - first:
+      4: 400080
+    second: pelvis
+  - first:
+      4: 400082
+    second: root
+  - first:
+      4: 400084
+    second: saw_l
+  - first:
+      4: 400086
+    second: saw_r
+  - first:
+      4: 400088
+    second: //RootNode
+  - first:
+      4: 400090
+    second: spine_01
+  - first:
+      4: 400092
+    second: spine_02
+  - first:
+      4: 400094
+    second: spine_03
+  - first:
+      4: 400096
+    second: tail_01
+  - first:
+      4: 400098
+    second: tail_02
+  - first:
+      4: 400100
+    second: tail_03
+  - first:
+      4: 400102
+    second: tail_04
+  - first:
+      4: 400104
+    second: thigh_l
+  - first:
+      4: 400106
+    second: thigh_r
+  - first:
+      4: 400108
+    second: upperarm_l
+  - first:
+      4: 400110
+    second: upperarm_r
+  - first:
+      4: 400112
+    second: upperJaw_l
+  - first:
+      4: 400114
+    second: upperJaw_r
+  - first:
+      21: 2100000
+    second: lambert1
+  - first:
+      43: 4300000
+    second: MainBody01
+  - first:
+      74: 7400000
+    second: Slide
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: MainBody01
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -155,6 +397,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Slide
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
@@ -303,25 +546,28 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -330,10 +576,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 1
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: pelvis
       humanName: Hips
@@ -401,14 +647,6 @@ ModelImporter:
         modified: 0
     - boneName: spine_02
       humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: neck_01
-      humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -497,6 +735,14 @@ ModelImporter:
         modified: 0
     - boneName: clavicle_r
       humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_01
+      humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -709,16 +955,6 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Eye14
-      parentName: Eyes
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Eye13
-      parentName: Eyes
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
     - name: Eye12
       parentName: Eyes
       position: {x: -0, y: 0, z: 0}
@@ -744,11 +980,6 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Eye07
-      parentName: Eyes
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
     - name: Eye06
       parentName: Eyes
       position: {x: -0, y: 0, z: 0}
@@ -760,11 +991,6 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Eye04
-      parentName: Eyes
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Eye03
       parentName: Eyes
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
@@ -864,69 +1090,9 @@ ModelImporter:
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
-    - name: Hat21
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Hat20
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Hat19
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
     - name: Hat18
       parentName: Headparts
       position: {x: -0, y: -0.020836005, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Hat17
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Hat16
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Grass15
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Comb14
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Horn13
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Horn12
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Horn11
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Horn10
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Hair09
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hair08
@@ -935,31 +1101,6 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hair07
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Hair06
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ear05
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ear04
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ear03
-      parentName: Headparts
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Ear02
       parentName: Headparts
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
@@ -1003,6 +1144,111 @@ ModelImporter:
       parentName: neck_01
       position: {x: -0.30618182, y: -6.0396133e-16, z: 8.413475e-17}
       rotation: {x: 0, y: 0, z: -0.0670836, w: 0.99774736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat21
+      parentName: head
+      position: {x: -0.16916358, y: -0.079946615, z: 0.000000057220458}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear02
+      parentName: head
+      position: {x: -0.1035144, y: 0.017620478, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear03
+      parentName: head
+      position: {x: -0.091107026, y: 0.04647367, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear04
+      parentName: head
+      position: {x: -0.3601581, y: -0.109709606, z: 9.482676e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear05
+      parentName: head
+      position: {x: -0.2376116, y: 0.064237766, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair06
+      parentName: head
+      position: {x: -0.10083401, y: 0.066166975, z: 0.002013378}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair09
+      parentName: head
+      position: {x: -0.19788621, y: -0.059959825, z: 0.089773975}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Horn10
+      parentName: head
+      position: {x: -0.012350926, y: 0.0049800063, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Horn11
+      parentName: head
+      position: {x: -0.36608544, y: 0.0049800063, z: 9.482676e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Horn12
+      parentName: head
+      position: {x: -0.24537605, y: 0.010070219, z: 9.482676e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Horn13
+      parentName: head
+      position: {x: -0.42406982, y: -0.008581758, z: 0.0037381363}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Comb14
+      parentName: head
+      position: {x: -0.14982833, y: 0.057208475, z: 0.000000004768372}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Grass15
+      parentName: head
+      position: {x: -0.13692024, y: 0.00038906003, z: 0.013557853}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat16
+      parentName: head
+      position: {x: -0.12748776, y: 0.0049800063, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat17
+      parentName: head
+      position: {x: -0.20948651, y: 0.007958659, z: 0.00000014305114}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat19
+      parentName: head
+      position: {x: -0.15736324, y: 0.0070448965, z: 0.00000014305114}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hat20
+      parentName: head
+      position: {x: -0.20035012, y: 0.026910583, z: 0.012829578}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye14
+      parentName: head
+      position: {x: -0.009812551, y: -0.03657847, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye03
+      parentName: head
+      position: {x: -0.021767646, y: -0.14347042, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye07
+      parentName: head
+      position: {x: -0.2741883, y: -0.00117949, z: 9.482676e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eye13
+      parentName: head
+      position: {x: -0.0079944655, y: -0.09264515, z: 6.6405043e-16}
+      rotation: {x: 1.2757003e-16, y: -0.7071068, z: 1.2757003e-16, w: 0.7071068}
       scale: {x: 1, y: 1, z: 1}
     - name: face
       parentName: head
@@ -1107,12 +1353,12 @@ ModelImporter:
     - name: upperarm_l
       parentName: clavicle_l
       position: {x: -0.1541595, y: -2.664535e-16, z: -2.131628e-15}
-      rotation: {x: 0.0015542317, y: 0.022218246, z: -0.11379966, w: 0.993254}
+      rotation: {x: 0.0015542243, y: 0.022218248, z: -0.11379966, w: 0.993254}
       scale: {x: 1, y: 1, z: 1}
     - name: lowerarm_l
       parentName: upperarm_l
       position: {x: -0.35891947, y: -6.661338e-18, z: -4.2632563e-16}
-      rotation: {x: 3.71439e-31, y: 1.4369965e-29, z: 0.03987671, w: 0.99920464}
+      rotation: {x: -1.6867398e-29, y: -6.5902496e-28, z: 0.03987671, w: 0.99920464}
       scale: {x: 1, y: 1, z: 1}
     - name: hand_l
       parentName: lowerarm_l
@@ -1251,14 +1497,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: eeebdeb8be91e0e43ae9170c2d8e4279,
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2b7c51804aef3f445999af66e5132162,
     type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 2
   additionalBone: 0
   userData: 
   assetBundleName: 
