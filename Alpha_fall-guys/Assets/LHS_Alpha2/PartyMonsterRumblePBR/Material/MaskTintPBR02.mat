@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MaskTintPBR02
+  m_Shader: {fileID: 4800000, guid: 2dda11899d49e3a4a97f81b8250369e8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: fff52daaf38776a4d98fa9f3d53534cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask01:
+        m_Texture: {fileID: 2800000, guid: 50e9fb6153612c34db4d662e57a1f651, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask02:
+        m_Texture: {fileID: 2800000, guid: ceae3dc109363fa4891cee365dc56c0e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask03:
+        m_Texture: {fileID: 2800000, guid: 221f05f662223d041a89c2f8e6b087e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PolyArtAlbedo:
+        m_Texture: {fileID: 2800000, guid: f3c426ceedd479b48a8f84c8f959b1f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SAM:
+        m_Texture: {fileID: 2800000, guid: 493dde90c9666144ba7617f97208ab8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Color01Power: 2.5
+    - _Color02Power: 2.5
+    - _Color03Power: 2.5
+    - _Color04Power: 2.5
+    - _Color05Power: 2.5
+    - _Color06Power: 2.5
+    - _Color07Power: 2.5
+    - _Color08Power: 2.5
+    - _Metallic: 0.35
+    - _Smoothness: 0
+    - __dirty: 1
+    m_Colors:
+    - _Color01: {r: 1, g: 0.66279554, b: 0, a: 0}
+    - _Color02: {r: 0.45162567, g: 0.30113026, b: 0.9528302, a: 0}
+    - _Color03: {r: 0.11439507, g: 0.46226418, b: 0.054512277, a: 0}
+    - _Color04: {r: 0.43870044, g: 0.5283019, b: 0.11213957, a: 0}
+    - _Color05: {r: 0.08050018, g: 0.32681012, b: 0.6320754, a: 0}
+    - _Color06: {r: 0.32527587, g: 0.1484959, b: 0.6698113, a: 0}
+    - _Color07: {r: 0.7264151, g: 0.34928828, b: 0, a: 0}
+    - _Color08: {r: 0.36030072, g: 0.5943396, b: 0.08130119, a: 0}

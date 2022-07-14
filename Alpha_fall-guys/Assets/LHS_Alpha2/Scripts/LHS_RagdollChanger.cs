@@ -34,7 +34,7 @@ public class LHS_RagdollChanger : MonoBehaviour
         charObj.SetActive(false);
         ragdollObj.SetActive(true);
 
-        spine.AddForce(new Vector3(0f, 300f, -300f), ForceMode.Impulse);
+        spine.AddForce(new Vector3(0f, 100f, -100f), ForceMode.Impulse);
     }
 
     private void CopyCharacterTransformToRagdoll(Transform origin, Transform ragdoll)
