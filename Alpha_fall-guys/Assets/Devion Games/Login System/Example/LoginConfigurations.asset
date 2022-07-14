@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8794333826752133761
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 218835ff92824864d8f8e8503ac9f294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skipLogin: 0
+  loadSceneOnLogin: 1
+  sceneToLoad: SciFi Login Successful
+  debug: 1
+--- !u!114 &-6335041345592972870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7b4a3f18d5af4438f6d743169d2b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serverAddress: https://deviongames.com/modules/demo/LoginSystem/php/
+  createAccount: createAccount.php
+  login: login.php
+  recoverPassword: recoverPassword.php
+  resetPassword: resetPassword.php
+  accountKey: Account
+--- !u!114 &-4750212059465769874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418ef40ff43c00d45bb618738a533dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loginFailed:
+    title: Login Failed
+    text: Username or password wrong! You may need to activate your account!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  emptyField:
+    title: Error
+    text: You need to complete all fields!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  passwordMatch:
+    title: Error
+    text: Password does not match confirm password!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  invalidEmail:
+    title: Error
+    text: Please enter a valid email!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  termsOfUse:
+    title: Error
+    text: You need to accept the terms of use!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  userExists:
+    title: Error
+    text: Username already exists!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  accountCreated:
+    title: Account Created
+    text: Your account was created and an activation link was sent to your email!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  accountNotFound:
+    title: Error
+    text: No corresponding account found!
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+  passwordRecovered:
+    title: Password Recovered
+    text: Your password has beed send to your email address. You may login now.
+    color: {r: 1, g: 1, b: 1, a: 1}
+    icon: {fileID: 0}
+    delay: 2
+    duration: 2
+    ignoreTimeScale: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b60d5ea3d24c8429dafd3a12b8ddcd, type: 3}
+  m_Name: LoginConfigurations
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: -8794333826752133761}
+  - {fileID: -6335041345592972870}
+  - {fileID: 3242650895108413574}
+  - {fileID: -4750212059465769874}
+--- !u!114 &2390022364111965249
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 218835ff92824864d8f8e8503ac9f294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skipLogin: 0
+  loadSceneOnLogin: 1
+  sceneToLoad: SciFi Login Successful
+  debug: 1
+--- !u!114 &3242650895108413574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42023f69ea1c47499086b565a48bab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loginWindowName: Login
+  registrationWindowName: Registration
+  recoverPasswordWindowName: Recover Password
+  dialogBoxName: Dialog Box
+  tooltipName: Tooltip

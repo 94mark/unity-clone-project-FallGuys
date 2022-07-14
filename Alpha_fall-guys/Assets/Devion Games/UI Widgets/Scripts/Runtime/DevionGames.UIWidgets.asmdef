@@ -1,0 +1,15 @@
+{
+    "name": "DevionGames.UIWidgets",
+    "references": [
+        "GUID:907b3328f60158944b2faf1e1b0a7749"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,114 @@
+{
+    "name": "Utilities",
+    "id": "com.deviongames.utilities",
+    "assetPath":"Assets/Devion Games/Utilities",
+    "version": "1.1.1",
+    "unityVersion": "2019.4.10",
+    "downloadPath": "https://deviongames.com/modules/Utilities.unitypackage",
+    "author": "Konstantin Janson",
+    "email": "support@unitycoding.com",
+    "description": "Utilities is a collection of useful classes, attributes and methods.",
+    "dependencies": [],
+    "changelogs": 
+    [
+        {
+            "version": "1.0.0",
+            "changes": 
+            [
+                "Initial Release"
+            ]
+        },
+        {
+            "version": "1.0.1",
+            "changes": 
+            [
+                "Extended graph api"
+            ]
+        }, 
+        {
+            "version": "1.0.2",
+            "changes": 
+            [
+                "Updated to Devion Games website.",
+                "Changed asset path from Unitycoding/Package to Devion Games/Package"
+            ]
+        }, 
+        {
+            "version": "1.0.3",
+            "changes": 
+            [
+                "TypeUtility.GetType(string name) now correctly returns type with and without namespace",
+                "Removed Graph support -> now seperate package",
+                "CallbackEventData has a dictionary to add/get generic information"
+            ]
+        }, 
+        {
+            "version": "1.0.4",
+            "changes": 
+            [
+                "Moved CopyComponents editor to Tool/Devion Games/Internal/",
+                "CollectionEditor supports moving items (ContextClick)"
+            ]
+        }, 
+        {
+            "version": "1.0.5",
+            "changes": 
+            [
+                "Dark Skin support"
+            ]
+        }, 
+        {
+            "version": "1.0.6",
+            "changes": 
+            [
+                "Refactoring and cleanup",
+                "Added ObjectCollection to draw simple classes",
+                "Added ObjectWindow -> Utility window to draw inspector like simple classes",
+                "Combined all Utility classes to static Utility.cs and UnityTools.cs",
+                "Renamed and extended UnityEditorUtility.cs to EditorTools.cs",
+                "Added LayerMask to SelectionHandler"
+
+            ]
+        }, 
+        {
+            "version": "1.0.7",
+            "changes": 
+            [
+                "SerializedProperty extension GetParent, GetValue, SetValue",
+                "DrawTypePropertiesExcluding(string[] propertiesToExclude) in CallbackHandlerInspector" 
+            ]
+        }, 
+        {
+            "version": "1.0.8",
+            "changes": 
+            [
+                "AssemblyDefinition"
+            ]
+        }, 
+        {
+            "version": "1.0.9",
+            "changes": 
+            [
+                "GetSerializedFields includes [SerializeReference] attribute"
+            ]
+        }, 
+        {
+            "version": "1.1.0",
+            "changes": 
+            [
+                "Added Blackboard",
+                "Added AudioEventListener",
+                "Extended PropertyAttributes"
+            ]
+        }, 
+        {
+            "version": "1.1.1",
+            "changes": 
+            [
+                "TimedDestroy",
+                "TimedEnable",
+                "AnimationEventSender"
+            ]
+        }
+    ]
+}

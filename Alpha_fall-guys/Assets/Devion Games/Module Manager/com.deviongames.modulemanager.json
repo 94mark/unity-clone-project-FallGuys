@@ -1,0 +1,57 @@
+{
+    "name": "Module Manager",
+    "id": "com.deviongames.modulemanager",
+	"assetPath":"Assets/Devion Games/Module Manager",
+    "version": "1.0.4",
+    "unityVersion": "2019.4.10",
+    "downloadPath": "https://deviongames.com/modules/ModuleManager.unitypackage",
+    "author": "Konstantin Janson",
+    "email": "support@unitycoding.com",
+    "description": "Module manager allows you to download and import unity assets.",
+    "documentation": "https://deviongames.com/module-manager/",
+    "dependencies": [],
+    "changelogs": 
+    [
+        {
+            "version": "1.0.0",
+            "changes": 
+            [
+                "Initial Release"
+            ]
+        }, 
+        {
+            "version": "1.0.1",
+            "changes": 
+            [
+                "Updated to Devion Games website.",
+                "Changed asset path from Unitycoding/Package to Devion Games/Package",
+                "Updated Documentation",
+                "Changed ModuleIcon to Logo",
+                "Improved Search"
+            ]
+        }, 
+        {
+            "version": "1.0.2",
+            "changes": 
+            [
+                "Fixed version changelog selection",
+                "Visual indicator for updates in Module Manager",
+                "Updates notification window"
+            ]
+        }, 
+        {
+            "version": "1.0.3",
+            "changes": 
+            [
+                "Hotfix: Moved GetBool from costurctor"
+            ]
+        }, 
+        {
+            "version": "1.0.4",
+            "changes": 
+            [
+                "Dark Skin Update"
+            ]
+        }
+    ]
+}
