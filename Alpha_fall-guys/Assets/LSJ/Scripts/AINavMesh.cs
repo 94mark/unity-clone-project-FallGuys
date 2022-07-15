@@ -15,7 +15,7 @@ public class AINavMesh : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         agent.destination = destPos.transform.position;
     }
