@@ -16,7 +16,7 @@ public class LHS_Camera : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         CameraRotate();
     }

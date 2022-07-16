@@ -29,14 +29,10 @@ public class LHS_MainPlayer : MonoBehaviour
 
     bool isDie;
 
-    /*
-    // 캐릭터 오브젝트
-    public GameObject charObj;
-    // 랙돌 오브젝트
-    public GameObject ragdollObj;
-    // 힘을 가할 rigidbody
-    public Rigidbody spine;
-    */
+    // 떨어질때
+    public GameObject player;
+    float spawnValue;
+    
 
     // Start is called before the first frame update
     void Awake()
@@ -53,13 +49,10 @@ public class LHS_MainPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetInput();
-        Move();
-        Turn();
-        Jump();
-        Expression();
-        Die();
-  
+        if (player.transform.position.y < -spawnValue)
+        {
+            DownPlayer();
+        }
     }
 
     //충돌 했을 때 물리 회전을 안하고 싶다.
@@ -69,10 +62,15 @@ public class LHS_MainPlayer : MonoBehaviour
         rigid.angularVelocity = Vector3.zero;
     }
 
-
     private void FixedUpdate()
     {
         FreezeRotation();
+        GetInput();
+        Move();
+        Turn();
+        Jump();
+        Expression();
+        Die();
     }
 
     void GetInput()
@@ -101,8 +99,6 @@ public class LHS_MainPlayer : MonoBehaviour
 
         // Move 애니메이션 true
         anim.SetBool("isMove", moveVec != Vector3.zero);
-
-        
     }
 
     void Turn()
@@ -155,9 +151,7 @@ public class LHS_MainPlayer : MonoBehaviour
         {
             anim.SetTrigger("doDie");
             isDie = false;
-            //ChangeRagdoll();
         }
-
     }
 
     // 감정표현
@@ -179,32 +173,14 @@ public class LHS_MainPlayer : MonoBehaviour
         }
     }
 
-    /*
-    public void ChangeRagdoll()
+    void DownPlayer()
     {
-        CopyCharacterTransformToRagdoll(charObj.transform, ragdollObj.transform);
-
-        charObj.SetActive(false);
-        ragdollObj.SetActive(true);
-        //spine.velocity = GetComponent<Rigidbody>().velocity;
-        spine.AddForce(new Vector3(0f, 100f, -100f), ForceMode.Impulse);
+        anim.SetTrigger("doFalling");
+        anim.SetBool("isfalling", false);
     }
-
-    private void CopyCharacterTransformToRagdoll(Transform origin, Transform ragdoll)
-    {
-        for (int i = 0; i < origin.childCount; i++)
-        {
-            if (origin.childCount != 0)
-            {
-                CopyCharacterTransformToRagdoll(origin.GetChild(i), ragdoll.GetChild(i));
-            }
-
-            ragdoll.GetChild(i).localPosition = origin.GetChild(i).localPosition;
-            ragdoll.GetChild(i).localRotation = origin.GetChild(i).localRotation;
-        }
-    }
-    */
 }
+
+
 
   
 
