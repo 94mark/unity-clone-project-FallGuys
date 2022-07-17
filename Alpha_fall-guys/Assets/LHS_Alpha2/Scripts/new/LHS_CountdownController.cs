@@ -25,17 +25,18 @@ public class LHS_CountdownController : MonoBehaviour
     // 텍스트 효과
     Animator animator;
 
-    private void Start()
+    private void Awake()
     {
+        
         animator = anim.GetComponent<Animator>();
-
-        Time.timeScale = 0;
         StartCoroutine(CountdownToStart());
 
         Num_A.SetActive(false); //1번
         Num_B.SetActive(false); //2번
         Num_C.SetActive(false); //3번
         Num_GO.SetActive(false);
+
+        Time.timeScale = 0;
     }
 
     //코루틴 함수 사용

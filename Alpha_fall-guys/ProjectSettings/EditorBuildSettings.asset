@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/LSJ/Scenes/Intro.unity
     guid: 614ae73fd0f2c814e932d83b0e8657cb
   - enabled: 1
-    path: Assets/LSJ/Scenes/InGame_map.v1.unity
-    guid: 1afe72359663c2a40b71a8ff43efe92b
+    path: Assets/LSJ/Scenes/InGame.unity
+    guid: 86ce14d6676e0574089ffad8ac5292cf
   m_configObjects: {}

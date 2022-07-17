@@ -6604,8 +6604,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c30bdfe2696f34a87d187069e0a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnValue: 0
   player: {fileID: 1043680302}
   respawnPoint: {fileID: 1914834032}
+  distance: 10
 --- !u!65 &466489879
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13550,8 +13552,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c30bdfe2696f34a87d187069e0a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnValue: 0
   player: {fileID: 1043680302}
   respawnPoint: {fileID: 358651700}
+  distance: 10
 --- !u!1001 &552088814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20482,8 +20486,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c30bdfe2696f34a87d187069e0a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnValue: 0
   player: {fileID: 1043680302}
   respawnPoint: {fileID: 1851076796}
+  distance: 10
 --- !u!1 &679945448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6100069379a1e7e438f31247f52aa234, type: 3}
@@ -21713,8 +21719,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c30bdfe2696f34a87d187069e0a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnValue: 0
   player: {fileID: 1043680302}
   respawnPoint: {fileID: 1381787403}
+  distance: 10
 --- !u!65 &756635155
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36510,7 +36518,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.1535087, y: 1}
+    m_SensorSize: {x: 2.2753165, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -50247,8 +50255,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c30bdfe2696f34a87d187069e0a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnValue: 0
   player: {fileID: 1043680302}
   respawnPoint: {fileID: 241012469}
+  distance: 10
 --- !u!1 &2023068184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3640444124841339801, guid: 84207c781cc70b448afe780791a52b74, type: 3}
@@ -51171,7 +51181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2060299919
 Transform:
   m_ObjectHideFlags: 0
@@ -52473,8 +52483,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c30bdfe2696f34a87d187069e0a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnValue: 0
   player: {fileID: 1043680302}
   respawnPoint: {fileID: 1914834032}
+  distance: 10
 --- !u!65 &2121726133
 BoxCollider:
   m_ObjectHideFlags: 0

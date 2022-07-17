@@ -11,7 +11,7 @@ public class SceneChange34 : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("InGame_map.v1");
+            SceneManager.LoadScene("InGame");
         }
     }
 }

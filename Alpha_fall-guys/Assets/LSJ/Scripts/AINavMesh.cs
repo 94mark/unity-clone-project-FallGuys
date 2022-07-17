@@ -6,7 +6,9 @@ public class AINavMesh : MonoBehaviour
 {
     GameObject destPos;
     NavMeshAgent agent;
+
     Rigidbody rigid;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +19,8 @@ public class AINavMesh : MonoBehaviour
 
     // Update is called once per frame
     void FixedUpdate()
-    {        
-        AIGo();
+    {
+        agent.destination = destPos.transform.position;
         FreezeRotation();
     }
 
@@ -27,8 +29,4 @@ public class AINavMesh : MonoBehaviour
         rigid.angularVelocity = Vector3.zero;
     }
 
-    void AIGo()
-    {
-        agent.destination = destPos.transform.position;          
-    }
 }

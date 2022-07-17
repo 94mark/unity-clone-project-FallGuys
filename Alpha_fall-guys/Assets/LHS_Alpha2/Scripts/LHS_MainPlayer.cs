@@ -24,15 +24,11 @@ public class LHS_MainPlayer : MonoBehaviour
     Rigidbody rigid;
 
     // 점프
-    bool jDown;
     bool isJump;
-
-    bool isDie;
-
-    // 떨어질때
-    public GameObject player;
-    float spawnValue;
+    //bool isGround;
+    bool jDown;
     
+    bool isDie;
 
     // Start is called before the first frame update
     void Awake()
@@ -49,10 +45,7 @@ public class LHS_MainPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.y < -spawnValue)
-        {
-            DownPlayer();
-        }
+
     }
 
     //충돌 했을 때 물리 회전을 안하고 싶다.
@@ -109,9 +102,15 @@ public class LHS_MainPlayer : MonoBehaviour
 
     void Jump()
     {
+        //anim.SetBool("isGround", true);
+        //isGround = true;
+        //anim.SetBool("isJump", false);
+        //isJump = false;
+        //anim.SetBool("isJumpF", false);
+
         // jump하고 잇는 상황에서 Jump하지 않도록 방지
         // 점프를 하고 있지 않다면
-        if(jDown && !isJump)
+        if (jDown && !isJump)
         {
             rigid.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
 
@@ -137,6 +136,8 @@ public class LHS_MainPlayer : MonoBehaviour
         // 태그가 바닥이라면 
         if (collision.gameObject.tag == "Floor")
         {
+           // anim.SetBool("isGround", false);
+           //isGround = false;
             anim.SetBool("isJump", false);
             isJump = false;
         }
@@ -173,11 +174,6 @@ public class LHS_MainPlayer : MonoBehaviour
         }
     }
 
-    void DownPlayer()
-    {
-        anim.SetTrigger("doFalling");
-        anim.SetBool("isfalling", false);
-    }
 }
 
 
