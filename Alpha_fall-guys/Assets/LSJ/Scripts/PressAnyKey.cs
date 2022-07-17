@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class PressAnyKey : MonoBehaviour
 {
     public GameObject pressText;
-    void Awake()    {
-        
+    void Awake()  
+    {
+        pressText.SetActive(false);
         StartCoroutine(ShowReady());
     }
 

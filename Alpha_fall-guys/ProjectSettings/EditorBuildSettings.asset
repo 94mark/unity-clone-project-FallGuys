@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/LSJ/Scenes/WaitingUser.unity
     guid: 3a732b3dec1a4764bbac9197fb3061f2
   - enabled: 1
+    path: Assets/LSJ/Scenes/Intro.unity
+    guid: 614ae73fd0f2c814e932d83b0e8657cb
+  - enabled: 1
     path: Assets/LSJ/Scenes/InGame_map.v1.unity
     guid: 1afe72359663c2a40b71a8ff43efe92b
   m_configObjects: {}

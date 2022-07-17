@@ -13,14 +13,11 @@ public class LoadingCount : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Text countText = GetComponent<Text>();
-        // StartCoroutine("Count");
-
         // pressText.SetActive(false);
     }
 
-    void Update()    {
-
+    void Update()    
+    {
         /*if(increasingNum <= fullmember)
         {
 
@@ -30,26 +27,10 @@ public class LoadingCount : MonoBehaviour
         {
             increasingNum += Time.deltaTime;
             countText.text = Mathf.Round(increasingNum) + " / " + fullmember;
-            /*if(increasingNum == fullmember)
+            if(increasingNum == fullmember)
             {
                 pressText.SetActive(true);
-            }*/
+            }
         }
     }
-
-    /* IEnumerator Count(float target, float current)
-    {
-        float duration = 0.5f;
-        float offset = (target - current) / duration;
-
-        while(current < target)
-        {
-            current += offset * Time.deltaTime;
-            countText.text = ((int)current).ToString();
-            yield return null;
-        }
-
-        current = target;
-        countText.text = ((int)current).ToString();
-    }*/
 }

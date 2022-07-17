@@ -9,11 +9,15 @@ public class UIManager : MonoBehaviour
     public Text textTimer;
     int min;
     float sec;
-    public GameObject roundover;
+    public GameObject roundOver;
     GameObject player;
     public GameObject destPos;
     int curRank = 0;
     public Text curRankUI;
+    public GameObject missionUI;
+    public GameObject missionPos;
+    Vector3 dir;
+    float speed = 3;
 
     public static UIManager Instance;
     private void Awake()
@@ -22,7 +26,10 @@ public class UIManager : MonoBehaviour
     }
     public int CurRank
     {
-        get { return curRank; }
+        get 
+        { 
+            return curRank;
+        }
         set
         {
             curRank = value;
@@ -35,14 +42,17 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         GameObject player = GameObject.Find("Player");
-        roundover.SetActive(false);
-        
+        roundOver.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Timer();
+
+        dir = missionPos.transform.position - missionUI.transform.position;
+        missionUI.transform.position += dir * speed * Time.deltaTime;
+        Timer();        
     }
 
     void Timer()
@@ -62,7 +72,8 @@ public class UIManager : MonoBehaviour
         if (limitTime <= 0)
         {
             textTimer.text = "<color=red>" + "Time Over" + "</color>";
-            roundover.SetActive(true);
+            roundOver.SetActive(true);
         }
     }
+
 }

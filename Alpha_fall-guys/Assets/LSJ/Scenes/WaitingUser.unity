@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 1445909578}
   - component: {fileID: 1445909577}
   - component: {fileID: 1445909579}
+  - component: {fileID: 1445909580}
   m_Layer: 0
   m_Name: TextManager
   m_TagString: Untagged
@@ -412,6 +413,19 @@ MonoBehaviour:
   fullmember: 10
   countText: {fileID: 1916245249}
   increasingNum: 0
+  pressText: {fileID: 899100313}
+--- !u!114 &1445909580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445909576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adcc4312a49f894889210f0efc34525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   pressText: {fileID: 899100313}
 --- !u!1 &1538506646
 GameObject:
@@ -1017,7 +1031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1/20
+  m_Text: 1 / 20
 --- !u!222 &1916245250
 CanvasRenderer:
   m_ObjectHideFlags: 0

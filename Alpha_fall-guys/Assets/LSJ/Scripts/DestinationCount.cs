@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestinationCount : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
         UIManager.Instance.CurRank++;
     }
