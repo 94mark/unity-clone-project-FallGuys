@@ -14,7 +14,7 @@ public class LHS_Bar : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         transform.position = Camera.main.WorldToScreenPoint(player.transform.position + Vector3.up * 2.8f );

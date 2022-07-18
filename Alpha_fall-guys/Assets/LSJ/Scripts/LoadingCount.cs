@@ -26,7 +26,7 @@ public class LoadingCount : MonoBehaviour
         if (increasingNum <= fullmember)
         {
             increasingNum += Time.deltaTime;
-            countText.text = Mathf.Round(increasingNum) + " / " + fullmember;
+            countText.text = Mathf.Round(increasingNum) + "/" + fullmember;
             if(increasingNum == fullmember)
             {
                 pressText.SetActive(true);
