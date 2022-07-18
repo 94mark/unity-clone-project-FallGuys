@@ -14,10 +14,6 @@ public class UIManager : MonoBehaviour
     public GameObject destPos;
     int curRank = 0;
     public Text curRankUI;
-    public GameObject missionUI;
-    public GameObject missionPos;
-    Vector3 dir;
-    float speed = 3;
 
     public static UIManager Instance;
     private void Awake()
@@ -49,9 +45,6 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        dir = missionPos.transform.position - missionUI.transform.position;
-        missionUI.transform.position += dir * speed * Time.deltaTime;
         Timer();        
     }
 

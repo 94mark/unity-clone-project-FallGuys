@@ -5,7 +5,7 @@ using UnityEngine;
 public class WaitingCharacterMove : MonoBehaviour
 {
     public GameObject destPos;
-    float speed = 3f;
+    float speed = 1.8f;
     Vector3 dir;
     // Start is called before the first frame update
     void Start()

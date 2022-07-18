@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 147
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 720
     height: 364.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -579,9 +579,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: acc50000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 10fcf4ff4229f5ffec2cf5ff5a30f5ffec34f5ff8286f5ff34c6f5ff2ac7f5ff8e39f6ffea40f6ff3e43f6ff7470f6ffbc0ef7ffd24df7ff784ff7ffaa7cf7ff6080f7fffaadf7ffdcf3f7ff4227f8ff6c54f8ff9681f8ffbcaff8ffc2e6f8ffc21af9ff381df9ff5e51f9ff0495f9ffd075fafff293fbff86e0fbff2abcfeffe4d3feff800effffd648fffffc76ffffeaafffff14fbffffe0360100ea3a0100023c0100e23d01003809080046490d00
+      m_ExpandedIDs: 6edcf8ffc4dcf8ffbc34f9ffba61f9ff7a62f9ffd865f9ffe8faf9ff0afbf9ff56fdf9ffdcb3fbff424bfcff2c27fdffdcb5fdffec0afeff80a9fefffc13fffff658ffff14cdffff14fbffff7c6d0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -687,22 +687,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/LSJ/Scenes
+    - Assets/LSJ/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/LSJ/Scenes
+  - Assets/LSJ/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\HP\Documents\GitHub\hanging-plaform-game\Alpha_fall-guys
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 47.80002}
-    m_SelectedIDs: a2850000
-    m_LastClickedID: 34210
-    m_ExpandedIDs: 00000000a2840000a4840000a6840000a8840000aa840000ac840000ae840000b0840000b2840000b4840000b6840000b8840000ba840000bc840000c0840000c2840000c4840000c6840000ca840000cc840000ce8400005a7f050000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d0850000
+    m_LastClickedID: 34256
+    m_ExpandedIDs: 00000000328500003485000036850000388500003a8500003c8500003e85000040850000428500004485000046850000488500004a8500004c8500004e85000050850000528500005485000056850000588500005a8500005c85000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -730,7 +730,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2840000a4840000a6840000a8840000aa840000ac840000ae840000b0840000b2840000b4840000b6840000b8840000ba840000bc840000be840000c0840000c2840000c4840000c6840000c8840000ca840000cc840000ce840000
+    m_ExpandedIDs: 00000000328500003485000036850000388500003a8500003c8500003e85000040850000428500004485000046850000488500004a8500004c8500004e85000050850000528500005485000056850000588500005a8500005c850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -769,7 +769,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      m_UserData: 50592
+      m_UserData: 34272
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1103,9 +1103,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 193.81549, y: 307.66626, z: 0}
+    m_Target: {x: -7.6113696, y: 66.68395, z: 579.1146}
     speed: 2
-    m_Value: {x: 193.81549, y: 307.66626, z: 0}
+    m_Value: {x: -7.6113696, y: 66.68395, z: 579.1146}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1152,17 +1152,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.03231872, y: -0.9736983, z: 0.14528033, w: -0.17902115}
+    m_Target: {x: -0.16937599, y: -0.82958174, z: 0.43191952, w: -0.31443697}
     speed: 2
-    m_Value: {x: -0.03228181, y: -0.97258633, z: 0.14511442, w: -0.1788167}
+    m_Value: {x: -0.1685326, y: -0.8290916, z: 0.4316728, w: -0.3128297}
   m_Size:
-    m_Target: 10
+    m_Target: 4.9494224
     speed: 2
-    m_Value: 10
+    m_Value: 4.9494224
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
