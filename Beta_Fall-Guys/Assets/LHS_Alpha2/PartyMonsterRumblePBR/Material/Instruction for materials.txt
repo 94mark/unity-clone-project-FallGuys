@@ -1,0 +1,2 @@
+PBR 2 : Gloves, head parts
+PBR 1 : Everything else
