@@ -6,7 +6,6 @@ public class AINavMesh : MonoBehaviour
 {
     GameObject destPos;
     NavMeshAgent agent;
-
     Rigidbody rigid;
 
     // Start is called before the first frame update
@@ -14,13 +13,13 @@ public class AINavMesh : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
-        destPos = GameObject.Find("RealDestPos");
+        destPos = GameObject.Find("DestinationPos");
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        agent.destination = destPos.transform.position;
+        agent.SetDestination(destPos.transform.position);
         FreezeRotation();
     }
 
@@ -29,4 +28,11 @@ public class AINavMesh : MonoBehaviour
         rigid.angularVelocity = Vector3.zero;
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.name == "DestinationPos")
+        {
+            agent.isStopped = false;
+        }
+    }
 }
