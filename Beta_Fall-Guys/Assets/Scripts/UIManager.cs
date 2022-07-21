@@ -82,15 +82,21 @@ public class UIManager : MonoBehaviour
                 {
                     roundOver.SetActive(false);
 
-                    if(player.transform.position.z > 592)
+                    if(player.transform.position.z > 560)
                     {
                         if (curretTime > 3f)
+                        {
                             success.SetActive(true);
+                            curretTime = 2;
+                        }
                     }
                     else
                     {
                         if (curretTime > 3f)
+                        {
                             failure.SetActive(true);
+                            curretTime = 2;
+                        }
                     }
                 }
             }

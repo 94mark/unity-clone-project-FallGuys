@@ -8,6 +8,14 @@ public class SceneChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SceneManager.GetActiveScene().name == "WaitingPlayers")
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                SceneManager.LoadScene("Intro");
+            }
+        }
+
         if (SceneManager.GetActiveScene().name == "Intro")
         {
             if(Input.GetMouseButtonDown(0))
@@ -27,13 +35,13 @@ public class SceneChange : MonoBehaviour
 
     public void LoginSceneChange()
     {
-        SceneManager.LoadScene("Lobby");
-    }
-    
-    public void LobbySceneChange()
-    {
         SceneManager.LoadScene("WaitingPlayers");
     }
+    
+    /*public void LobbySceneChange()
+    {
+        SceneManager.LoadScene("WaitingPlayers");
+    }*/
 
     public void WaitingPalyersSceneChange()
     {
