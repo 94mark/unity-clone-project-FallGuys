@@ -12,7 +12,9 @@ public class BounceWall : MonoBehaviour
         if (collision.transform.tag == playerTag)
         {
             Rigidbody otherRB = collision.rigidbody;
-            otherRB.AddExplosionForce(bounceForce, collision.contacts[0].point, 3, 5);
+            otherRB.velocity = new Vector3(0, 0, 0);
+            //otherRB.AddExplosionForce(bounceForce, collision.contacts[0].point, 3, 5);
+            otherRB.AddForce(Vector3.back * bounceForce, ForceMode.Impulse);
 
         }
     }

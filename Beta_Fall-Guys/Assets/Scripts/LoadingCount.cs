@@ -27,10 +27,24 @@ public class LoadingCount : MonoBehaviour
         {
             increasingNum += Time.deltaTime;
             countText.text = Mathf.Round(increasingNum) + "/" + fullmember;
-            if(increasingNum == fullmember)
+            if(increasingNum >= fullmember)
             {
                 pressText.SetActive(true);
+
+                StartCoroutine("ShowReady");
             }
+        }
+    }
+    IEnumerator ShowReady()
+    {
+        int count = 0;
+        while (count < 100)
+        {
+            pressText.SetActive(true);
+            yield return new WaitForSeconds(.5f);
+            pressText.SetActive(false);
+            yield return new WaitForSeconds(.5f);
+            count++;
         }
     }
 }

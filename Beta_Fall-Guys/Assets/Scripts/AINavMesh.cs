@@ -7,7 +7,6 @@ public class AINavMesh : MonoBehaviour
     GameObject destPos;
     NavMeshAgent agent;
     Rigidbody rigid;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -21,18 +20,11 @@ public class AINavMesh : MonoBehaviour
     {
         agent.SetDestination(destPos.transform.position);
         FreezeRotation();
+
     }
 
     void FreezeRotation()
     {
         rigid.angularVelocity = Vector3.zero;
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.gameObject.name == "DestinationPos")
-        {
-            agent.isStopped = false;
-        }
     }
 }

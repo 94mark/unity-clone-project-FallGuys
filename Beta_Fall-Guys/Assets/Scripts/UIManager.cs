@@ -10,8 +10,11 @@ public class UIManager : MonoBehaviour
     int min;
     float sec;
     public GameObject roundOver;
-    GameObject player;
+    public GameObject success;
+    public GameObject failure;
+    public GameObject player;
     public GameObject destPos;
+    public GameObject boxTriggerPoint;
     int curRank = 0;
     public Text curRankUI;
 
@@ -42,11 +45,15 @@ public class UIManager : MonoBehaviour
 
     }
 
+    float waitTime = 2f;
+    float curretTime = 0;
     // Update is called once per frame
     void Update()
     {
-        Timer();        
+        Timer();
+       
     }
+
 
     void Timer()
     {
@@ -66,7 +73,27 @@ public class UIManager : MonoBehaviour
         {
             textTimer.text = "<color=red>" + "Time Over" + "</color>";
             roundOver.SetActive(true);
+
+            curretTime += Time.deltaTime;
+
+            if (roundOver.activeSelf == true)
+            {
+                if (curretTime > waitTime)
+                {
+                    roundOver.SetActive(false);
+
+                    if(player.transform.position.z > 592)
+                    {
+                        if (curretTime > 3f)
+                            success.SetActive(true);
+                    }
+                    else
+                    {
+                        if (curretTime > 3f)
+                            failure.SetActive(true);
+                    }
+                }
+            }
         }
     }
-
 }
