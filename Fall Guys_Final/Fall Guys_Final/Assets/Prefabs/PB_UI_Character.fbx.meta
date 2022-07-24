@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 2e522ebf895b1824fbe70321e47587f5
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 5588447541525286609
+    second: FG_Loading_Falling_A
+  - first:
+      74: -1350731474737610640
+    second: FG_Idle_A
+  - first:
+      74: 8540488570579240840
+    second: FG_Walk_Right_A
+  - first:
+      74: 5016917786963033396
+    second: FG_Walk_Left_A
+  - first:
+      74: 6641285207873296215
+    second: FG_Walk_A
+  - first:
+      74: 9116023571871170977
+    second: FG_CostumeChangeLooking_A
+  - first:
+      74: 7960399557851355106
+    second: FG_Idle_Joggingonspot
+  - first:
+      74: -5983188243843139032
+    second: FG_Idle_TouchingToes
+  - first:
+      74: 7187400535178724301
+    second: FG_Emote_Chicken_A
+  - first:
+      74: 526006914123607298
+    second: FG_Emote_Wave_A
+  - first:
+      74: 2133258939585667911
+    second: FG_Emote_Neener_A
+  - first:
+      74: -4527647147526023915
+    second: FG_Emote_ThumbsUp_A
+  - first:
+      74: 2270286033508236550
+    second: FG_Emote_WaveOverHead_A
+  - first:
+      74: 3592587521371947791
+    second: FG_Emote_PirateDance_A
+  - first:
+      74: 6156902771286847519
+    second: FG_Emote_slowclap_A
+  - first:
+      74: 8375050315777882955
+    second: FG_Emote_RobotDance_A
+  - first:
+      74: -2746488339373379492
+    second: CH_Fallguy_FG_Emote_Mexwave
+  - first:
+      74: 7149610348155728239
+    second: CH_Fallguy_FG_emote_HappyClap
+  - first:
+      74: -1406449806323929923
+    second: FG_Beefcake_A
+  - first:
+      74: -3250724228466655020
+    second: FG_Emote_Zsnap_A
+  - first:
+      74: 4750524011340929224
+    second: FG_Emote_Pattycake_A
+  - first:
+      74: 3241454174637189745
+    second: FG_Emote_Armthrow_A
+  - first:
+      74: -8726136059806773303
+    second: FG_emote_boxing_01_A
+  - first:
+      74: -4172729066700134712
+    second: FG_emote_ChestBump_01_A
+  - first:
+      74: -4637230680114573308
+    second: FG_emote_Salute_01_A
+  - first:
+      74: 6929537906209518576
+    second: FG_emote_horsey_A
+  - first:
+      74: 8910212562662938950
+    second: FG_emote_Jester_A
+  - first:
+      74: -5048073515431488922
+    second: FG_emote_Curtsy_A
+  - first:
+      74: -4605700921268072197
+    second: FG_emote_Bow_A
+  - first:
+      74: -2879790551942367623
+    second: FG_emote_comeon_01_A
+  - first:
+      74: -8291614301884386334
+    second: FG_emote_HONK_01_A
+  - first:
+      74: 7270982731675219257
+    second: ArmWave_Start
+  - first:
+      74: 9194337613697835173
+    second: ArmWave_Loop
+  - first:
+      74: 5714302934853201059
+    second: ArmWave_End
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
